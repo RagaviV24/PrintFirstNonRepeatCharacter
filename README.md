@@ -10,8 +10,11 @@ Instructions: Implement manual string traversal and counting logic to solve the 
 
 Sample Inputs and Outputs:
 1. Input: swiss
+   
 Output: w
-2. Input: aabbcc
+3. Input: aabbcc
+
 Output: No non-repeating character found.
-3. Input: alphabet
+4. Input: alphabet
+
 Output: l
