@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class FirstNonRepeat {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); 
+        System.out.println("Enter the string: ");
+        String input = sc.nextLine(); 
+        boolean found = false; 
+        for (int i = 0; i < input.length(); i++) {
+            boolean unique = true; 
+            for (int j = 0; j < input.length(); j++) {
+                if (i != j && input.charAt(i) == input.charAt(j)) {
+                    unique = false;  
+                    break; 
+                }
+            }
+            if (unique) { 
+                System.out.println("First non-repeating character: " + input.charAt(i));
+                found = true;
+                break;  
+            }
+        }
+        if (!found) {  
+            System.out.println("No non-repeating character found.");
+        }
+        sc.close();
+    }
+}
