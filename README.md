@@ -12,9 +12,11 @@ Sample Inputs and Outputs:
 1. Input: swiss
    
 Output: w
+
 3. Input: aabbcc
 
 Output: No non-repeating character found.
+
 4. Input: alphabet
 
 Output: l
